@@ -16,12 +16,15 @@ const final = () => {
         <link rel="icon" href="/heart.png" />
       </Head>
       <div className="world text-center flex flex-col justify-center items-center gap-2 bg-pink-200 px-10 py-15 rounded-2xl">
-        <div className="text-3xl">
+        <span className="text-3xl">
           Hey... I am very happy to see us together..😘💕
-        </div>
+        </span>
         <div className="text-3xl">
-          Share this with me as well.. Zara Whatsapp par mujhe bhi batao --- Me
-          bhi toh khush ho jau😁
+          Share this with me as well.. Zara mujhe bhi Video Call karke bata do
+          <br />
+          <br /> Me bhi toh khush ho jau😁
+          <br />
+          [Waiting for your call..🤙]
         </div>
       </div>
       <img

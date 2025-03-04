@@ -19,7 +19,7 @@ export default function Home() {
         <link rel="icon" href="/heart.png" />
       </Head>
       <div className="flex flex-col w-full h-full justify-center items-center text-center text-6xl gap-5">
-        <div>Get Ready for Neel's Way of Proposal! 😁😎</div>
+        <div>Get Ready for Neel's Way of Proposal!<br/>😁😎</div>
         <button
           className="px-3 py-2 rounded-lg border border-black hover:scale-150"
           onClick={() => {
