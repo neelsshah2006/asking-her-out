@@ -53,7 +53,7 @@ const ourWorld = () => {
           for you.
         </div>
         <div>
-          I don’t know the exact moment it happened— All I know is that{" "}
+          I don’t know the exact moment it happened— All I know is that
           <u>
             my world🌏 feels brighter when you’re around, and my heart❤️ feels
             at home with you.
@@ -63,9 +63,8 @@ const ourWorld = () => {
           I’ve always cherished our bond, and I never want to lose what we have.
           But I also can’t hide the truth any longer—
         </div>
-        <span className="text-3xl w-full text-center">I love you.</span>
+        <span className="text-3xl w-full text-center">💕I love you.💕</span>
         <div>
-          {" "}
           Not just as my best friend, but as the one who has my heart
           completely.
         </div>
