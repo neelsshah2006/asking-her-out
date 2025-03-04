@@ -7,7 +7,7 @@ const ourWorld = () => {
   const router = useRouter();
   setTimeout(() => {
     toast.success("My Sweet Message for you :>");
-    router.push("/ourWorld");
+    router.push("/final");
   }, 10000);
   return (
     <>
