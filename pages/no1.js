@@ -4,8 +4,6 @@ import { useRouter } from "next/router";
 import toast, { Toaster } from "react-hot-toast";
 
 export default function Home() {
-  let i = 0;
-  let t_l = 0;
   const router = useRouter();
   const YesHandler = () => {
     toast.success("Yayyyyy!! ♥");

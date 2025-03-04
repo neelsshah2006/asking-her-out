@@ -1,3 +1,4 @@
+import Head from "next/head";
 import { useRouter } from "next/router";
 import React from "react";
 import toast, { Toaster } from "react-hot-toast";
@@ -10,6 +11,9 @@ const ourWorld = () => {
   }, 10000);
   return (
     <>
+      <Head>
+        <title>Happy..!😁</title>
+      </Head>
       <video
         onLoad={() => {
           nextPage();
