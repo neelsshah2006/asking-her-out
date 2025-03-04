@@ -7,7 +7,7 @@ export default function Home() {
   const router = useRouter();
   const EnterHandler = () => {
     toast.success("Woohooo!! I am really very excited!", { autoClose: 6000 });
-    router.push("/happy");
+    router.push("/ourWorld");
   };
   return (
     <>
