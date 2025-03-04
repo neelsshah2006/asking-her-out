@@ -7,7 +7,7 @@ export default function Home() {
   const router = useRouter();
   const YesHandler = () => {
     toast.success("Yayyyyy!! ♥");
-    router.push("/");
+    router.push("/yes");
   };
 
   const NoHandler = () => {
