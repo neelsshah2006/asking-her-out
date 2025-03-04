@@ -10,7 +10,7 @@ const ourWorld = () => {
       "Woohooo!! Mujhe bhi call karke batao...",
       { autoClose: 10000 }
     );
-    router.push("/final");
+    router.push("/happy");
   };
   const No = () => {
     toast.error("☹️ Why? Talk to me for this... Please!!", {
