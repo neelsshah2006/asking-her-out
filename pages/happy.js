@@ -30,7 +30,7 @@ const ourWorld = () => {
           src={"/video.mp4"}
           autoPlay
         ></video>
-        <h1 className="world text-3xl">
+        <h1 className="world text-3xl text-center">
           My Happiness after this!
           <br />
           🤗😁
