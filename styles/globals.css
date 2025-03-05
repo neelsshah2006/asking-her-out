@@ -28,5 +28,9 @@ button {
 }
 
 .world {
-  font-family: "Big Shoulders", sans-serif;
+  font-family: "Montserrat", sans-serif;
+}
+
+.world span {
+  font-family: "Roboto Mono", monospace;
 }

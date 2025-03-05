@@ -1,3 +1,4 @@
+"use client";
 import { useRouter } from "next/router";
 import React from "react";
 import toast, { Toaster } from "react-hot-toast";
@@ -6,10 +7,9 @@ import Head from "next/head";
 const ourWorld = () => {
   const router = useRouter();
   const click = () => {
-    toast.success(
-      "Woohooo!! Mujhe bhi call karke batao...",
-      { autoClose: 10000 }
-    );
+    toast.success("Woohooo!! Mujhe bhi call karke batao...", {
+      autoClose: 10000,
+    });
     router.push("/happy");
   };
   const No = () => {
@@ -24,12 +24,12 @@ const ourWorld = () => {
         <link rel="preconnect" href="https://fonts.googleapis.com" />
         <link rel="preconnect" href="https://fonts.gstatic.com" crossOrigin />
         <link
-          href="https://fonts.googleapis.com/css2?family=Big+Shoulders:opsz,wght@10..72,100..900&display=swap"
+          href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Roboto+Mono:ital,wght@0,100..700;1,100..700&display=swap"
           rel="stylesheet"
         />
         <link rel="icon" href="/heart.png" />
       </Head>
-      <div className="world bg-pink-200 flex flex-col justify-center p-5 rounded-2xl max-w-[90vw] mt-100 gap-2 text-xl">
+      <div className="world bg-pink-200 flex flex-col justify-center p-5 rounded-2xl max-w-[90vw] gap-2 text-xl absolute top-10 left-4 w-[100vw]">
         <span className="text-2xl text-left w-full">
           To My Dearest Priy Sakhi😘,
         </span>
@@ -38,7 +38,7 @@ const ourWorld = () => {
           the best gifts I have!
         </div>
         <span className="text-center">
-          ❤️
+          ❤️ &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;❤️
           <br />
           Tu j e ek che, jeni saathe hu koi pan vaat share kari shaku chu… sari
           ke kharab, jevi pan hoi.
@@ -59,8 +59,8 @@ const ourWorld = () => {
         <div>
           I don’t know the exact moment it happened— All I know is that{" "}
           <u>
-            my world🌏 feels brighter when you’re around, and my heart❤️ feels
-            at home with you.
+            my world feels brighter when you’re around, and my heart❤️ feels at
+            home with you.
           </u>
         </div>
         <div>
