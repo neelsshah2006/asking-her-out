@@ -30,7 +30,11 @@ const ourWorld = () => {
           src={"/video.mp4"}
           autoPlay
         ></video>
-        <h1 className="world text-3xl">My Happiness after this..🤗😁</h1>
+        <h1 className="world text-3xl">
+          My Happiness after this!
+          <br />
+          🤗😁
+        </h1>
         <p>Wait for 10 secs..</p>
         <Toaster position="bottom-center" />
       </div>
